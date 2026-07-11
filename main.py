@@ -28,7 +28,7 @@ print(classification_report(y_test, predictions, target_names=iris.target_names)
 print("===================================================")
 
 # 5. VISUAL OUTPUT: Beautiful Confusion Matrix Plot
-print("🎨 Generating visual confusion matrix chart...")
+print("Generating visual confusion matrix chart...")
 cm = confusion_matrix(y_test, predictions)
 display = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=iris.target_names)
 
