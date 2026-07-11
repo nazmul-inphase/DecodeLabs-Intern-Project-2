@@ -28,3 +28,5 @@ A tabular layout that allows visualization of the performance of the algorithm. 
 
 ### 3. F1-Score (1.00)
 The harmonic mean of Precision and Recall. A perfect score of 1.00 signifies that the model is perfectly optimized and robust, maintaining an ideal balance without any classification bias.
+
+![Confusion Matrix](Confusion%20Matrix.png)
